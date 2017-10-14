@@ -1,0 +1,83 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-size: 200px;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+}
+.header {
+	background: url(https://static.pexels.com/photos/338515/pexels-photo-338515.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 800px;
+}
+.header .container {
+	left: 15%;
+	position: absolute;
+}
+#intro {
+	text-align: center
+}
+#page2 {
+	text-align: center
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #4286f4;
+}
+.dropbtn {
+	background-color: #6692D3;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color: White;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	text-align: center;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #E0E0E0
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #0c5e87;
+}

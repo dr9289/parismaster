@@ -1,0 +1,97 @@
+h3 {
+	text-align: center;
+}
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4286f4;
+	text-align: center;
+	list-style-type: none
+}
+.nav li {
+	float: left;
+}
+.nav li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: yellow;
+	float: left
+}
+.nav li a:hover {
+	background-color: #000
+}
+img {
+	display: block;
+	margin: auto;
+}
+.content {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4286f4;
+	text-align: center;
+	list-style-type: none
+}
+.content li {
+	float: left;
+}
+.content li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: yellow
+}
+.content li a:hover {
+	background-color: #000
+}
+#tour1 {
+	height: 70px;
+	width: 80px;
+}
+#tour1:hover {
+	transform: scale(1.5, 1.5);
+}
+#tour2 {
+	height: 70px;
+	width: 80px;
+}
+#tour3 {
+	height: 70px;
+	width: 80px;
+}
+
+/* Tooltip container */
+
+.tour1 {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tour1:hover .tooltiptext {
+	visibility: visible;
+}
