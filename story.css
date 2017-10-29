@@ -32,9 +32,9 @@ html {
 	text-align: center;
 }
 .storyContent {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 }
 #day1 {
 	background-color: #418cf4;
